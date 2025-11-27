@@ -20,8 +20,9 @@ import {
   faMapPin,
   faPhone,
   faEnvelope,
+  faCheck,
 } from "@fortawesome/free-solid-svg-icons";
-library.add(faUser, faMagnifyingGlass, faMapPin, faPhone, faEnvelope);
+library.add(faUser, faMagnifyingGlass, faMapPin, faPhone, faEnvelope, faCheck);
 
 const app = createApp(App);
 app.component("FontAwesomeIcon", FontAwesomeIcon);

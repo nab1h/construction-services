@@ -58,7 +58,10 @@ export default {
 
 <style lang="scss" scoped>
 nav {
+  position: fixed;
+  width: 100%;
   background-color: var(--secondary-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 999999;
 }
 
