@@ -3,9 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-12 mb-4 pb-2">
-          <a class="navbar-brand mb-2" href="index.html">
-            <i class="bi-back"></i>
-            <span>Topic</span>
+          <a class="navbar-brand" href="/">
+            <h1>الإســلامـيـة</h1>
           </a>
         </div>
 
@@ -54,10 +53,8 @@
         </div>
 
         <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-          <div
-            class="h-100 w-100 "
-          >
-            <p class="copyright-text text-muted mt-lg-5 mt-4 ">
+          <div class="h-100 w-100">
+            <p class="copyright-text text-muted mt-lg-5 mt-4">
               Copyright © 2026 Topic Listing Center. All rights reserved.
               <br /><br />Design:
               <a
@@ -99,7 +96,9 @@ export default {
   pointer-events: none;
   z-index: -1;
 }
-
+.navbar-brand h1{
+  font-weight: bold;
+}
 .site-footer-title {
   color: var(--primary-color);
   font-weight: bold;
@@ -115,7 +114,6 @@ export default {
   text-decoration: none;
   font-weight: 300;
   z-index: 4;
-
 }
 
 .site-footer-link-item {
@@ -123,7 +121,6 @@ export default {
   list-style: none;
   line-height: normal;
   z-index: 4;
-
 }
 
 .site-footer-link {

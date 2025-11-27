@@ -1,16 +1,20 @@
 <template>
   <section class="contact-section py-5">
-    <div class="container">
+    <div
+      class="container"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-center"
+    >
       <addres-pages :-addres="addres" />
       <div class="row mt-5 h-100 map">
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
           <p class="contact-item">
-            <strong> <FontAwesomeIcon :icon="faMapPin" class="icon" /> </strong> دبي،
-            الإمارات العربية المتحدة
+            <strong> <FontAwesomeIcon :icon="faMapPin" class="icon" /> </strong>
+            دبي، الإمارات العربية المتحدة
           </p>
           <p class="contact-item">
-            <strong><FontAwesomeIcon :icon="faPhone" class="icon" /></strong> +971 55 546
-            1048
+            <strong><FontAwesomeIcon :icon="faPhone" class="icon" /></strong>
+            +971 55 546 1048
           </p>
           <p class="contact-item">
             <strong><FontAwesomeIcon :icon="faEnvelope" class="icon" /></strong>
@@ -64,11 +68,11 @@ export default {
   background-color: #f8f9fa;
   min-height: 100vh;
 }
-.icon{
-    padding: 4px;
-    background-color: #80d0c7;
-    border-radius: 50%;
-    margin: 0 10px;
+.icon {
+  padding: 4px;
+  background-color: #80d0c7;
+  border-radius: 50%;
+  margin: 0 10px;
 }
 .contact-title {
   color: #80d0c7;

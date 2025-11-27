@@ -5,7 +5,7 @@
     :space-between="100"
     @swiper="onSwiper"
     @slideChange="onSlideChange"
-    :autoplay="{ delay: 1800, disableOnInteraction: true }"
+    :autoplay="{ delay: 2800, disableOnInteraction: true }"
   >
     <swiper-slide v-for="(review, index) in reviews" :key="index"
       ><div

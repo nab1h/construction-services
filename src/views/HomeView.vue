@@ -2,8 +2,9 @@
   <div
     id="section_1"
     class="hero-section d-flex justify-content-center align-items-center"
+
   >
-    <div class="container">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="4000">
       <div class="row">
         <div class="col-lg-8 col-12 mx-auto">
           <h1 class="text-white text-center">{{ addres }}</h1>

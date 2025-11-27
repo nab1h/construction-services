@@ -1,7 +1,10 @@
 <template>
   <section id="about">
     <div class="about pb-5">
-      <div class="container">
+      <div class="container"
+      data-aos="fade-up"
+     data-aos-duration="4000"
+      >
         <addres-pages :Addres="addres" />
         <div class="row d-flex p-0 m-0">
           <div class="col col-12 col-sm-6 col-lg-6 p-0 m-0 mt-5 pt-5">

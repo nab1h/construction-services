@@ -7,8 +7,9 @@ import "@/assets/scss/main.scss";
 // ========= bootstrap =========
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-// =============================
-
+// ================AOS ===================
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 // =================font asowme ===========
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -26,3 +27,4 @@ const app = createApp(App);
 app.component("FontAwesomeIcon", FontAwesomeIcon);
 
 app.use(store).use(router).mount("#app");
+AOS.init()

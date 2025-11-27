@@ -1,6 +1,7 @@
 <template>
   <section id="services">
-    <div class="container container-ser">
+    <div class="container container-ser" data-aos="fade-up"
+     data-aos-duration="4000">
       <AddresPages :-addres="addres" :color="color" />
 
       <div class="row gy-5">

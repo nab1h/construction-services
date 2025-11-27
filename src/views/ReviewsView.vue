@@ -1,8 +1,10 @@
 <template>
   <section id="reviews">
-    <div class="container">
+    <div class="container" >
       <addres-pages :-addres="addres" />
-      <div class="d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column justify-content-center align-items-center" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
         <div class="inp w-100">
           <ReviewForm />
         </div>
