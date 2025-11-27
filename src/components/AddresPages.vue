@@ -27,6 +27,7 @@ h2 {
   font-size: 46px;
   color: black;
   font-weight: 900;
+  margin-top: 75px;
   padding-bottom: 15px;
   z-index: 2;
 }
